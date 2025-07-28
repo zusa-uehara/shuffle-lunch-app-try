@@ -70,6 +70,8 @@ class Application{
       '/shuffle' => ['controller' => 'shuffle', 'action' => 'create'],
       '/employee' => ['controller' => 'employee', 'action' => 'index'],
       '/employee/create' => ['controller' => 'employee', 'action' => 'create'],
+      '/employee_edit' => ['controller' => 'employee_edit', 'action' => 'index'],
+      '/employee_edit/create' => ['controller' => 'employee_edit', 'action' => 'create'],
     ];
   }
 

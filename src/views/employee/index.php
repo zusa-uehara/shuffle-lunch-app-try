@@ -20,10 +20,10 @@
     </div>
     <div>
       <h2>社員の一覧</h2>
-      <ul>
+      <ul style="list-style-type : none;">
         <?php foreach ($employees as $employee): ?>
           <li>
-            <?= $employee['name'] ?>
+            <?= $employee['id'] ?>：<?= $employee['name'] ?>
           </li>
         <?php endforeach; ?>
       </ul>
