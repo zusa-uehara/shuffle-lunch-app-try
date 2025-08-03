@@ -11,6 +11,7 @@ class DatabaseManager{
       throw new RuntimeException('mysqli接続エラー:' . $mysqli->connect_error);
     }
 
+
     $this->mysqli = $mysqli;
   }
 

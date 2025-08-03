@@ -3,6 +3,7 @@
 class AutoLoader{
   private $dirs;
 
+
   public function register(){
     spl_autoload_register([$this, 'loadClass']);
   }
